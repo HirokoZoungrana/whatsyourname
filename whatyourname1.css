@@ -1,0 +1,46 @@
+@media screen and (max-width:480px){
+
+    body {
+        margin: 0;
+        width: fit-content;
+        height: fit-content;
+    }
+    .search-name {
+            /* Frame Enter Name */
+            box-sizing: border-box;
+
+            position: absolute;
+            width: 260px;
+            height: 38px;
+            left: 50px;
+            top: 210px;
+
+            background: #FFFFFF;
+            border: 3px solid rgba(1, 144, 1, 0.15);
+            border-radius: 15px;
+    }
+    ::placeholder{
+        position: absolute;
+        top: 0.5em;
+        left: 1em;
+    }
+    footer {
+        /*copyright*/
+        position: absolute;
+        left: 50%;
+        bottom: 20px;
+
+        font-family: 'M PLUS 1 Code';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+
+        color: rgba(0, 0, 0, 0.25);
+    }
+}
+
+/*@media screen and (max-width:480px){
+    
+}*/
